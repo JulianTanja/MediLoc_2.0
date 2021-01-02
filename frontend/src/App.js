@@ -10,7 +10,10 @@ function App() {
     	<div className='app'>
 			<div className='app__tab'>
 				<img src={logo} alt="Mediloc Logo"/>
-				<p></p>
+				<body>
+					<p></p>
+				</body>
+				
 				<Search />
 				<Dashboard />
 			</div>
